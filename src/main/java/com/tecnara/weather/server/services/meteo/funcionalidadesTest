@@ -1,0 +1,11 @@
+Funcionalidades de Client:
+-conexión con server.
+Funcionalidades de Server:
+-conexion socket.
+-mantener conexión.
+-comprobar mensaje de coordenadas si es un String json y si tiene parámetros correctos.
+Funcionalidades Utils:
+-parsea coordenadas en objeto
+Funcionalidades OpenWeatherMap:
+-conecta con la url y almacena en buffer los datos.
+-si los datos son correcto formatea la cadena en un toString para imprimir los atributos de las claseas MainJson y WeatherJSon
